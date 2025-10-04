@@ -12,7 +12,7 @@ May require aditional downloads or installs.
 
 The program is a minimal browser js chessbot, meant to used as a starting point for bigger chess programs, includes : chessboard, pieces, game functionality with stockfish (user may need to download stockfish).
 
-![App Screenshot failed to load](https://github.com/rutgervanweehaeghe/chess-bot/ChessAppScreenshot.png)
+![App Screenshot failed to load](https://github.com/rutgervanweehaeghe/chess-bot/blob/main/ChessAppScreenshot.png)
 🚀 Run the Chess App
 
 Clone the repository
