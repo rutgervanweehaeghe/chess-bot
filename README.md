@@ -31,6 +31,8 @@ installed.
 
 
 ![Nodejs Logo failed to load](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg)
+
+
 Make sure you have stockfish engine installed, rename it to 'stockfish.exe' and put in a new folder named '/stockfish' in your project folder.
 (download from official website)
 
