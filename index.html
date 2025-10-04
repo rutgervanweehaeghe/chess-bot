@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chess with Stockfish</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Chess Game</h1>
+
+  <!-- ✅ Main container: Board + Move log side by side -->
+  <div id="gameContainer">
+    <div id="boardWrapper">
+      <div id="chessboard"></div>
+
+      <!-- ✅ Buttons always below board -->
+      <div id="controls">
+        <button id="resetBtn">♻ Reset Game</button>
+        <button id="undoBtn">↩ Take Back</button>
+        <button id="onlineBtn">🌐 Play Online</button>
+      </div>
+    </div>
+
+    <!-- Move log on the side -->
+    <div id="moveLog">
+      <h2>Moves</h2>
+    </div>
+  </div>
+<!-- Endgame Popup (place it near bottom of <body>, BEFORE script.js) -->
+<div id="endgamePopup" class="hidden" aria-hidden="true">
+  <div id="popupContent" role="dialog" aria-modal="true">
+    <h2 id="popupMessage"></h2>
+    <div style="height:18px"></div>
+    <button id="popupClose">OK</button>
+  </div>
+</div>
+  <!-- Load chess.js first -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.11.0/chess.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
