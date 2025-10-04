@@ -26,7 +26,7 @@ Install dependencies
 Make sure you havea recent version of Node.js
 installed.
 
-Make sure you have stockfish engine installed, rename it to 'stockfish.exe' and put it in '/stockfish' in your project folder.
+Make sure you have stockfish engine installed, rename it to 'stockfish.exe' and put in a new folder named '/stockfish' in your project folder.
 (download from official website)
 
 then:
