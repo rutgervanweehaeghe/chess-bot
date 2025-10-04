@@ -7,7 +7,7 @@ Non-profit use allowed with accreditation *check 'CC BY-NC 4.0' license for exac
 
 Written in js, html, css, nodejs.
 
-Requires nodejs to be installed and stockfish.exe (downloaded seperately from the official stockfish website) for the chess engine
+Requires nodejs to be installed and stockfish.exe (downloaded seperately from the official stockfish website) for the chess engine.
 May require aditional downloads or installs.
 
 The program is a minimal browser chessbot, meant to used as a starting point for bigger chess programs, includes : chessboard, pieces, game functionality with stockfish (user may need to download stockfish).
